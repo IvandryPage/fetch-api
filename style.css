@@ -16,7 +16,9 @@ body {
 
 .container {
   width: 100%;
-  max-width: 380px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .card {
@@ -72,10 +74,15 @@ button:hover {
   margin-bottom: 10px;
 }
 
+#login-form {
+  max-width: 400px;
+  width: 100%;
+}
+
 .gallery {
   margin-top: 20px;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  grid-template-columns: repeat(5, 1fr);
   gap: 14px;
 }
 

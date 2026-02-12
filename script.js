@@ -4,6 +4,7 @@ const loadBtn = document.getElementById("load-btn");
 const gallery = document.getElementById("gallery");
 
 const API_URL = "https://api.thecatapi.com/v1/images/search?limit=6";
+// const API_URL = "https://candaan-api.vercel.app/api/image/random";
 
 /* ---------- LOGIN FLOW ---------- */
 function handleLogin(event) {
