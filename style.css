@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  background: linear-gradient(135deg, #f5f7fa, #e4e8f0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 40px;
+}
+
+/* Container */
+.container {
+  width: 100%;
+  max-width: 380px; /* lebih stabil daripada 25vw */
+}
+
+/* Card (Login Box) */
+.card {
+  background: white;
+  padding: 32px 24px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-bottom: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.card h2 {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+/* Input Styling */
+input {
+  padding: 10px 12px;
+  border: 1px solid #dcdcdc;
+  border-radius: 8px;
+  font-size: 14px;
+  transition: 0.2s ease;
+}
+
+input:focus {
+  outline: none;
+  border-color: #333;
+}
+
+/* Button Styling */
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background: #111;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+button:hover {
+  background: #333;
+}
+
+/* Gallery Section */
+#gallery-section {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#gallery-section h2 {
+  margin-bottom: 10px;
+}
+
+.gallery {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 14px;
+}
+
+.gallery img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.2s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+}
