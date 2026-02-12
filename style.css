@@ -14,13 +14,11 @@ body {
   padding: 40px;
 }
 
-/* Container */
 .container {
   width: 100%;
-  max-width: 380px; /* lebih stabil daripada 25vw */
+  max-width: 380px;
 }
 
-/* Card (Login Box) */
 .card {
   background: white;
   padding: 32px 24px;
@@ -37,7 +35,6 @@ body {
   margin-bottom: 10px;
 }
 
-/* Input Styling */
 input {
   padding: 10px 12px;
   border: 1px solid #dcdcdc;
@@ -51,7 +48,6 @@ input:focus {
   border-color: #333;
 }
 
-/* Button Styling */
 button {
   padding: 10px;
   border: none;
@@ -67,7 +63,6 @@ button:hover {
   background: #333;
 }
 
-/* Gallery Section */
 #gallery-section {
   text-align: center;
   margin-top: 20px;
